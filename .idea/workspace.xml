@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ae50cbd-9d4c-4d5a-9339-6a236214d7a3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3ae50cbd-9d4c-4d5a-9339-6a236214d7a3" name="Changes" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/stats/Stat/Statservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/stats/Stat/Statservice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/stats/Stat/StatserviceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/stats/Stat/StatserviceTest.java" afterDir="false" />
     </list>
@@ -36,24 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.StatserviceTest.DayOfMaxSales">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Stat" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatserviceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.StatserviceTest.BigThenMid">
+    <configuration name="StatserviceTest.BigThenMid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stat" />
       <extension name="coverage">
         <pattern>
@@ -63,7 +53,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.stats.Stat" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.stats.Stat.StatserviceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="BigThenMid" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,22 +70,6 @@
       <option name="PACKAGE_NAME" value="ru.netology.stats.Stat" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.stats.Stat.StatserviceTest" />
       <option name="METHOD_NAME" value="DayOfMaxSales" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatserviceTest.DayOfMinSales" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Stat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.stats.Stat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.stats.Stat" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.stats.Stat.StatserviceTest" />
-      <option name="METHOD_NAME" value="DayOfMinSales" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,13 +91,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StatserviceTest.MidValueSales" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.stats.Stat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.stats.Stat" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.stats.Stat.StatserviceTest" />
+      <option name="METHOD_NAME" value="MidValueSales" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatserviceTest.SummarySales" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.stats.Stat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.stats.Stat" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.stats.Stat.StatserviceTest" />
+      <option name="METHOD_NAME" value="SummarySales" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatserviceTest.BigThenMid" />
+        <item itemvalue="JUnit.StatserviceTest.MidValueSales" />
+        <item itemvalue="JUnit.StatserviceTest.SummarySales" />
         <item itemvalue="JUnit.StatserviceTest.DayOfMaxSales" />
         <item itemvalue="JUnit.StatserviceTest.DayOfMxSales" />
-        <item itemvalue="JUnit.StatserviceTest.DayOfMinSales" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.StatserviceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +142,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655132440966</updated>
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1655139493949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655139493949</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,5 +162,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>

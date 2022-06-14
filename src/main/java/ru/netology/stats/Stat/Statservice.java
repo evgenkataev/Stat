@@ -26,4 +26,36 @@ public class Statservice {
         }
         return maxMonth + 1;
     }
+
+    public int sumSales(int[] sales) {
+        int sum = 0;
+        for (int value : sales) {
+            sum += value;
+        }
+        return sum;
+    }
+
+    public int midValue(int[] sales) {
+        int sum = 0;
+        for (int value : sales) {
+            sum += value;
+        }
+        return sum / sales.length;
+    }
+
+    public int bigThenMidValue(int[] sales) {
+        int sum=0;
+        for (int value:sales) {
+            sum += value;
+        }
+        int mid = sum/sales.length;
+        int bigThen =0;
+        for (int i=0;i<sales.length;i++){
+            if (sales[i]>=mid){
+              bigThen =i;
+            }
+        }
+        return bigThen;
+    }
+
 }
